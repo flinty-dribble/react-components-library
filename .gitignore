@@ -1,6 +1,0 @@
-node_modules
-.idea
-/dist
-.prettierrc.json
-coverage
-/storybook-static
