@@ -29,4 +29,9 @@ module.exports = {
     "import/extensions": "off",
     "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
   },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
 };

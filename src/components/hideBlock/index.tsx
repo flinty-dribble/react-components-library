@@ -6,7 +6,7 @@ class HideBlock extends React.Component {
     par: "hide",
   };
 
-  constructor(props: any) {
+  constructor(props: Record<string, unknown>) {
     super(props);
     this.hide = this.hide.bind(this);
   }

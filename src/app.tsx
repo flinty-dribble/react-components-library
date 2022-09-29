@@ -6,10 +6,14 @@ import HideBlock from "./components/hideBlock";
 import Picture from "./components/picture";
 
 class App extends React.Component {
+  solvingErr = {
+    head: <Heading />,
+  };
+
   render() {
     return (
       <div>
-        <Heading />
+        {this.solvingErr.head}
         <Text />
         <Whitespace />
         <HideBlock />

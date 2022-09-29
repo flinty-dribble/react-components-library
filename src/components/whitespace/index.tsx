@@ -1,11 +1,15 @@
 import React from "react";
 
 class Whitespace extends React.Component {
+  solvingErr = {
+    line: <hr></hr>,
+  };
+
   render() {
     return (
       <>
         <br></br>
-        <hr></hr>
+        {this.solvingErr.line}
       </>
     );
   }
